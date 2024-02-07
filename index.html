@@ -11,16 +11,17 @@
 </head>
 <body>
     <h1>AI Portuguese Poem Generator</h1>
-    <form>
-        <div class="input-container">
-            <input type="text" id="input" value="" name="poem-input" required autofocus autocomplete="off">
-            <input type="submit" value="Submit" id="submit">
+    <form class="input-container" id="form">
+        <input type="text" id="input-prompt" name="input" class="input" placeholder="Insert prompt here" required autocomplete="off"/>
+            <input type="submit" value="Submit" id="submit"/>
             <p id="ux">i.e: Beach, Sunset...</p>
             <p id="loading"></p>
-        </div>
     </form>
 
     <div id="poem">
+        <br>
+        <br>
+        <br>
     </div>
 
     <p id="host">
