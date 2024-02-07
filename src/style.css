@@ -1,0 +1,89 @@
+* {
+    font-family:sans-serif;
+}
+
+body {
+    max-width: max-content;
+    margin: auto;
+    background-color: rgb(253, 237, 239);
+    }
+
+.input {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+#input {
+    color: #222222;
+    width:80%;
+    padding: 5px 20px;
+    border: 1px solid lightgray;
+}
+
+#submit {
+    border: 1px solid pink;
+    color: #222222;
+    background-color: pink;
+    padding: 5px 25px;
+}
+
+#submit:hover {
+    background-color: rgb(255, 109, 133);
+    border: 1px solid rgb(255, 109, 133);
+    color: white;
+}
+
+#ux, #host, #loading {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #222222;
+}
+
+#poem {
+    border-left: 3px solid rgb(255, 109, 133);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+a {
+    color: rgb(255, 109, 133);
+}
+
+@media only screen and (max-width: 768px) {
+    #host {
+        text-align: center;
+    }
+
+    body {
+        margin: 20px;
+    }
+
+    #submit {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #input {
+        width: 100%;
+    }
+
+    #ux, #loading {
+        text-align: center;
+    }
+}
