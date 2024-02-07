@@ -5,17 +5,21 @@
     <link rel="stylesheet" href="src/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
     <title>AI portuguese poem generator</title>
 </head>
 <body>
     <h1>AI Portuguese Poem Generator</h1>
-    <div class="input">
-                <input type="text" id="input" name="poem-input" required autofocus autocomplete="off">
-                <input type="submit" value="Submit" id="submit">
-                <p id="ux">i.e: Beach, Sunset...</p>
-                <p id="loading"></p>
-    </div>
-    
+    <form>
+        <div class="input-container">
+            <input type="text" id="input" value="" name="poem-input" required autofocus autocomplete="off">
+            <input type="submit" value="Submit" id="submit">
+            <p id="ux">i.e: Beach, Sunset...</p>
+            <p id="loading"></p>
+        </div>
+    </form>
+
     <div id="poem">
     </div>
 

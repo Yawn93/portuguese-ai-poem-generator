@@ -8,7 +8,7 @@ body {
     background-color: rgb(253, 237, 239);
     }
 
-.input {
+.input-container {
     margin-top: 20px;
     padding: 20px;
     background-color: white;
@@ -58,6 +58,7 @@ input {
     padding: 20px;
     background-color: white;
     border-radius: 5px;
+    display: none;
 }
 
 a {
